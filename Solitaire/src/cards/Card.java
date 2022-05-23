@@ -6,6 +6,7 @@ public class Card{
     private boolean shown;
     private int value;
 
+    //Constructor
     public Card( int house, boolean color, boolean shown, int value) {
         this.setHouse(house);
         this.setColor(color);
