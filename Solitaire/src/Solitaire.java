@@ -2,18 +2,17 @@ import cards.*;
 import java.io*;
 import java.util.*;
 public class Solitaire {
-
     public static void main (String[] args) {
-        Stack deck = new deck();
+        Stack<String> newGame = new Stack<String>();
 
-        deck.push("As");
-        deck.push("2s");
-        deck.push("3s");
-        deck.push("Ah");
-        deck.push("2h");
-        deck.push("3h");
+        newGame.push("As");
+        newGame.push("2s");
+        newGame.push("3s");
+        newGame.push("Ah");
+        newGame.push("2h");
+        newGame.push("3h");
 
-        System.out.println(deck);
+        System.out.println(newGame);
 
     }
 }
