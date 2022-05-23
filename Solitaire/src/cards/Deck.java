@@ -1,5 +1,8 @@
 package cards;
 
-class Deck{
-
+public class Deck{
+    private int numberOfHouses;
+    private int numberOfCards;
+    public Card[] deck;
+    private int deckSize;
 }
