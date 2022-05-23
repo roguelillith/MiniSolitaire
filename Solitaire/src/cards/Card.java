@@ -2,7 +2,7 @@ package cards;
 
 public class Card{
     private int house;
-    private boolean color;
+    private int color;
     private boolean shown;
     private int value;
 
