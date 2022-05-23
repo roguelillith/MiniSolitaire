@@ -7,7 +7,7 @@ public class Card{
     private int value;
 
     //Constructor
-    public Card( int house, boolean color, boolean shown, int value) {
+    public Card( int house, int color, boolean shown, int value) {
         this.setHouse(house);
         this.setColor(color);
         this.setShown(shown);
@@ -22,11 +22,11 @@ public class Card{
         this.house = house;
     }
 
-    public boolean isColor() {
+    public int isColor() {
         return color;
     }
 
-    public void setColor(boolean color) {
+    public void setColor(int color) {
         this.color = color;
     }
 
