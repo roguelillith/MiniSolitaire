@@ -45,4 +45,10 @@ public class Card{
     public void setValue(int value) {
         this.value = value;
     }
+
+    public void showCard(){
+        System.out.println("House :"+house);
+        System.out.println("Color :"+color);
+        System.out.println("Value :"+value);
+    }
 }
