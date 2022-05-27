@@ -2,17 +2,16 @@ import cards.*;
 import java.io.*;
 import java.util.*;
 public class Solitaire {
+
     public static void main (String[] args) {
-        Stack<String> newGame = new Stack<String>();
+        Deck firstDeck = new Deck(2,3);
+        /*Positions 0-2 are for the first column in the game
+        Positions 3-6 are for the second column in the game
+        Positions 7-9 are for the draw deck
+        Positions 10-12 are for the heart house ending positions
+        Positions 13-15 are for the spade house ending positions*/
 
-        newGame.push("As");
-        newGame.push("2s");
-        newGame.push("3s");
-        newGame.push("Ah");
-        newGame.push("2h");
-        newGame.push("3h");
-
-        System.out.println(newGame);
+        firstDeck.showCards();
 
     }
 }
